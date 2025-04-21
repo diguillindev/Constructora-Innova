@@ -1,0 +1,293 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+.logo-container {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.logo-container img {
+    max-width: 150px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.totales {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    background-color: #f44336;
+    padding: 5px 10px;
+}
+
+.remove-btn:hover {
+    background-color: #d32f2f;
+}
+
+.section {
+    margin-bottom: 30px;
+    
+}
+
+/* Estilos para control de porcentaje */
+.porcentaje-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.porcentaje-input {
+    width: 80px;
+    text-align: center;
+}
+
+.flechas-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.flecha-btn {
+    background-color: #2196F3;
+    color: white;
+    width: 32px;
+    height: 24px;
+    padding: 0;
+    margin: 2px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilos para controles de porcentaje en la tabla */
+.porcentaje-tabla {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+}
+
+.porcentaje-tabla-input {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.tabla-flecha-btn {
+    width: 24px;
+    height: 22px;
+    padding: 0;
+    font-size: 14px;
+}
+
+/* Media Query para tablets */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    h1,
+    h2 {
+        font-size: 1.5em;
+    }
+
+    input,
+    select {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .porcentaje-control {
+        gap: 8px;
+    }
+
+    .porcentaje-input {
+        width: 60px;
+    }
+
+    .flechas-control {
+        gap: 4px;
+    }
+
+    .flecha-btn {
+        width: 28px;
+        height: 20px;
+        font-size: 16px;
+    }
+
+    .porcentaje-tabla {
+        width: 90px;
+    }
+
+    .porcentaje-tabla-input {
+        width: 40px;
+        font-size: 14px;
+    }
+
+    .tabla-flecha-btn {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+}
+
+/* Media Query para móviles */
+@media (max-width: 480px) {
+    body {
+        padding: 8px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1,
+    h2 {
+        font-size: 1.2em;
+    }
+
+    input,
+    select {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    button {
+        padding: 6px 10px;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .porcentaje-control {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .porcentaje-input {
+        width: 50px;
+    }
+
+    .flechas-control {
+        flex-direction: row;
+        gap: 2px;
+    }
+
+    .flecha-btn {
+        width: 24px;
+        height: 18px;
+        font-size: 14px;
+    }
+
+    .porcentaje-tabla {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        width: auto;
+    }
+
+    .porcentaje-tabla-input {
+        width: 35px;
+        font-size: 12px;
+    }
+
+    .tabla-flecha-btn {
+        width: 18px;
+        height: 18px;
+        font-size: 10px;
+    }
+}

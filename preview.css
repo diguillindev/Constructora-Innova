@@ -1,0 +1,56 @@
+/* preview.css */
+.preview-container {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.preview-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.preview-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.preview-cliente {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.preview-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.preview-table th,
+.preview-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.preview-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.preview-totales {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+
+.preview-totales p {
+    font-size: 14px;
+    margin: 5px 0;
+}
